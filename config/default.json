@@ -1,4 +1,6 @@
 {
-    "mongoURI": "mongodb+srv://dazza:darek200180@devconnector.ktutq.mongodb.net/?retryWrites=true&w=majority",
-    "jwtSecret": "mysecrettoken"
+  "mongoURI": "mongodb+srv://dazza:darek200180@devconnector.ktutq.mongodb.net/?retryWrites=true&w=majority",
+  "jwtSecret": "mysecrettoken",
+  "githubClientId": "ddd3d22f4aeca6b494ce",
+  "githubSecret": "0ecce84b527dcb13264e10b14db938f79fc592b6"
 }
