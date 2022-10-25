@@ -1,10 +1,13 @@
 import { Fragment } from 'react'
 import './App.css'
+import Landing from './components/Landing'
+import Navbar from './components/Navbar'
 
 const App = () => {
   return (
     <Fragment>
-      <h1>Dev-connector</h1>
+      <Navbar />
+      <Landing />
     </Fragment>
   )
 }
