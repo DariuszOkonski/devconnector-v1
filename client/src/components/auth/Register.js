@@ -1,5 +1,4 @@
 import React, { Fragment, useState } from 'react'
-import axios from 'axios'
 
 function Register() {
   const [formData, setFormData] = useState({
@@ -19,44 +18,10 @@ function Register() {
     e.preventDefault()
 
     if (password !== password2) {
-      console.log('Password do not match')
+      console.log('Passwords do not match')
     } else {
-      console.log('success')
-      //   const newUser = {
-      //     name,
-      //     email,
-      //     password,
-      //   }
-
-      //   try {
-      //     const config = {
-      //       headers: {
-      //         'Content-Type': 'application/json',
-      //       },
-      //     }
-      //     const body = JSON.stringify(newUser)
-
-      //     const res = await axios.post(
-      //       'http://localhost:5000/api/users',
-      //       body,
-      //       config,
-      //     )
-
-      //     // console.log(res.data)
-      //     console.log(res)
-      //   } catch (err) {
-      //     console.error(err.respose.data)
-      //   }
+      console.log('Success')
     }
-
-    // console.log(formData)
-
-    // setFormData({
-    //   name: '',
-    //   email: '',
-    //   password: '',
-    //   password2: '',
-    // })
   }
 
   return (
