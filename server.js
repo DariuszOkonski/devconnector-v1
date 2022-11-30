@@ -1,6 +1,8 @@
 const express = require("express");
+const connectDB = require("./config/db");
 
 const app = express();
+connectDB();
 
 app.get("/", (req, res) => {
   res.send("API Running...");
@@ -10,5 +12,3 @@ const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`Server started on port ${PORT}...`);
 });
-
-// mongodb+srv://dazzdev:Test_123@devconnector-v1.9pukvow.mongodb.net/?retryWrites=true&w=majority
