@@ -28,5 +28,8 @@ https://www.npmjs.com/package/request
 DevDependencies:
 ++++++++++++++++
 
+nodemon:
+https://www.npmjs.com/package/nodemon
+
 concurrently:
 https://www.npmjs.com/package/concurrently
