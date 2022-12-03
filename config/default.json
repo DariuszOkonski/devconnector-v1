@@ -1,3 +1,4 @@
 {
-  "mongoURI": "mongodb+srv://dazzdev:Test_123@devconnector-v1.9pukvow.mongodb.net/?retryWrites=true&w=majority"
+  "mongoURI": "mongodb+srv://dazzdev:Test_123@devconnector-v1.9pukvow.mongodb.net/?retryWrites=true&w=majority",
+  "jwtSecret": "mysecrettoken"
 }

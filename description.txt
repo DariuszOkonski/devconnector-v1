@@ -18,6 +18,8 @@ https://www.npmjs.com/package/gravatar
 
 jsonwebtoken:
 https://www.npmjs.com/package/jsonwebtoken
+https://jwt.io/
+https://github.com/auth0/node-jsonwebtoken
 
 mongoose:
 https://www.npmjs.com/package/mongoose
